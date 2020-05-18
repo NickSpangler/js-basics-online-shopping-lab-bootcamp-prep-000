@@ -10,7 +10,6 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
 var random = Math.floor(Math.random() * 100) + 1
 const itemObject = { itemName: `${item}`, itemPrice: parseInt(random) } 
 cart.push(itemObject)
@@ -19,7 +18,6 @@ return `${item} has been added to your cart.`
 }
 
 function viewCart() {
-  // write your code here
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   } else {
@@ -40,7 +38,6 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
   var sum = 0
   for (let i = 0; i < cart.length; i++) {
     sum += (cart[i]["itemPrice"])
@@ -61,5 +58,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if () {
+    
+  }
 }
