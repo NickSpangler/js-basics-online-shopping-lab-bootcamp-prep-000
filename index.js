@@ -66,6 +66,6 @@ function placeOrder(cardNumber) {
     sum += (cart[i]["itemPrice"])
     }
     cart == []
-    return `Your total cost is $${sum}, which will be charged to the card ${cardNumber} 
+    return `Your total cost is $${sum}, which will be charged to the card ${cardNumber}.`
   }
 }
